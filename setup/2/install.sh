@@ -6,5 +6,5 @@ yaourt -S xf86-video-intel mesa\
  nautilus gedit gnome-tweak-tool\
  python-pip python2-pip ipython ipython2\
  gtk-engine-murrine gtk-engines\
- numix-circle-icon-theme-git vimix-gtk-themes-git\
+ numix-circle-icon-theme-git osx-arc-darker\
  google-chrome wireshark-gtk

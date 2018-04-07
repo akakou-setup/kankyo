@@ -1,4 +1,4 @@
-yaourt -S neovim zsh zsh-completion
+yaourt -S neovim zsh zsh-completion\
  xf86-video-intel mesa\
  xorg-server xorg-server-utils xorg-xinit xterm\
  otf-ipafont ibus mozc\

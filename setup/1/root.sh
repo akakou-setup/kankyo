@@ -11,5 +11,5 @@ pacman -S neovim zsh zsh-completions&&
   echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf&&
   echo "[archlinuxfr]" >> /etc/pacman.conf &&
   echo "SigLevel = Never" >> /etc/pacman.conf &&
-  echo "Server = http://repo.archlinux.fr/$arch" >> /etc/pacman.conf &&
+  echo "Server = http://repo.archlinux.fr/x86_64" >> /etc/pacman.conf &&
   pacman --sync --refresh yaourt

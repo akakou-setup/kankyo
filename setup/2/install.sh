@@ -1,10 +1,10 @@
 yaourt -S xf86-video-intel mesa\
- xorg-server xorg-server-utils xorg-xinit xterm\
+ xorg-server xorg-apps xorg-xinit xterm\
  otf-ipafont ibus mozc\
  budgie-desktop tilix\
- network-manager dconf dconf-editor\
+ networkmanager dconf dconf-editor\
  nautilus gedit gnome-tweak-tool\
- python-pip python2-pip ipython2 ipython3\
+ python-pip python2-pip ipython ipython2\
  gtk-engine-murrine gtk-engines\ 
  numix-circle-icon-theme-git vimix-gtk-themes-git\
  google-chrome-stable wireshark-gtk

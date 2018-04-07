@@ -9,4 +9,7 @@ pacman -S neovim zsh zsh-completions&&
 
   echo "[multilib]" >> /etc/pacman.conf&&
   echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf&&
+  echo "[archlinuxfr]" >> /etc/pacman.conf &&
+  echo "SigLevel = Never" >> /etc/pacman.conf &&
+  echo "Server = http://repo.archlinux.fr/$arch" >> /etc/pacman.conf &&
   pacman --sync --refresh yaourt

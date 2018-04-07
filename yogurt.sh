@@ -5,7 +5,7 @@ yaourt -S neovim zsh zsh-completion
  budgie-desktop tilix\
  network-manager dconf dconf-editor\
  nautilus gedit gnome-tweak-tool\
- pip ipython2 ipython3\
+ python-pip python2-pip ipython2 ipython3\
  gtk-engine-murrine gtk-engines\ 
  numix-circle-icon-theme-git vimix-gtk-themes-git\
  google-chrome-stable wireshark-gtk

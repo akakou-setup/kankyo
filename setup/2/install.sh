@@ -5,6 +5,6 @@ yaourt -S xf86-video-intel mesa\
  networkmanager dconf dconf-editor\
  nautilus gedit gnome-tweak-tool\
  python-pip python2-pip ipython ipython2\
- gtk-engine-murrine gtk-engines\ 
+ gtk-engine-murrine gtk-engines\
  numix-circle-icon-theme-git vimix-gtk-themes-git\
- google-chrome-stable wireshark-gtk
+ google-chrome wireshark-gtk

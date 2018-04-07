@@ -12,4 +12,8 @@ pacman -S neovim zsh zsh-completions&&
   echo "[archlinuxfr]" >> /etc/pacman.conf &&
   echo "SigLevel = Never" >> /etc/pacman.conf &&
   echo "Server = http://repo.archlinux.fr/x86_64" >> /etc/pacman.conf &&
-  pacman --sync --refresh yaourt
+  pacman --sync --refresh yaourt &&
+  
+  cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup &&
+  sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup &&
+  rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist

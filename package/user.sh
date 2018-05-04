@@ -3,7 +3,7 @@ yaourt -S xf86-video-intel mesa\
  otf-ipafont ibus mozc\
  budgie-desktop tilix\
  networkmanager dconf dconf-editor\
- nautilus gedit gnome-tweak-tool\
+ nautilus gedit gnome-control-center gnome-tweak-tool\
  python-pip python2-pip ipython ipython2\
  gtk-engine-murrine gtk-engines\
  numix-circle-icon-theme-git osx-arc-darker\

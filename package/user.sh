@@ -7,4 +7,6 @@ yaourt -S xf86-video-intel mesa\
  python-pip python2-pip ipython ipython2\
  gtk-engine-murrine gtk-engines\
  numix-circle-icon-theme-git osx-arc-darker\
- google-chrome wireshark-gtk
+ google-chrome wireshark-gtk &&
+
+pip3 install neovim && pip2 install neovim

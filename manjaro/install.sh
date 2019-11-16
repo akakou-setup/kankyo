@@ -3,7 +3,7 @@ sudo chsh -s /bin/zsh akakou
 sudo pacman-mirrors --fasttrack && sudo pacman -Syy
 
 sudo pacman -Syu --noconfirm \
-    fcitx-mozc tilix wireshark \
+    code tilix wireshark ipa-fonts \
     python-pip python2-pip ipython ipython2
 
 sudo pacman -Syu --noconfirm base-devel \
@@ -13,5 +13,8 @@ sudo pacman -Syu --noconfirm base-devel \
     && makepkg -si --noconfirm \
     && yay -Syu --noconfirm \
       numix-circle-icon-theme-git \
-      fingerprint-gui google-chrome
+      google-chrome ibus-mozc
 
+sudo pacman -Syu docker docker-compose --noconfirm \
+    && sudo systemctl enable docker \
+    && sudo systemctl start docker
